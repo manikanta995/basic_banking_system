@@ -1,0 +1,99 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #e9f7f9; /* Soft light blue background */
+    margin: 0;
+    padding: 0;
+}
+
+h2, h4 {
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 700;
+    color: #0d3b66; /* Dark blue for headings */
+}
+
+table {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #002b5b; /* Navy blue for table text */
+}
+
+.navbar-brand {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #0077b6; /* Light blue for brand text */
+}
+
+.nav-link {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #0d3b66; /* Dark blue for nav links */
+}
+
+.my-info {
+    margin: 20px 0;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 22px;
+    color: #073b4c; /* Teal for info section */
+}
+
+button.btn-info {
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #118ab2; /* Light blue button background */
+    color: white; /* White button text */
+}
+
+button.btn-info:hover {
+    background-color: #0d3b66; /* Dark blue on hover */
+}
+
+.modal-title {
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    color: #1d3557; /* Navy blue modal title */
+}
+
+.modal-body input {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #0077b6; /* Light blue text */
+    border: 1px solid #118ab2; /* Light blue border */
+}
+
+.modal-footer button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #0d3b66; /* Dark blue button background */
+    color: white; /* White button text */
+}
+
+.modal-footer button:hover {
+    background-color: #0077b6; /* Light blue on hover */
+}
+
+/* Table colors */
+.table-hover tbody tr:hover {
+    background-color: #d4f1f4; /* Light blue highlight on row hover */
+}
+
+.table thead th {
+    background-color: #0077b6; /* Light blue for header */
+    color: white; /* White header text */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #e0f7fa; /* Very light blue for even rows */
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f1f8f9; /* Lighter blue for odd rows */
+}
+
+/* Modal input borders */
+input:focus {
+    border-color: #0d3b66; /* Dark blue on input focus */
+    box-shadow: 0 0 5px #0d3b66; /* Add shadow on focus */
+}
